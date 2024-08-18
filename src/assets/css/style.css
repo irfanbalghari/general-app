@@ -75,7 +75,7 @@ h2 {
         font-size: 16px;
         text-transform: uppercase;
         padding: 7px 10px;
-        color: #fff; }
+        color: #e90e65; }
     .maine-menu .collapse.show {
       background: rgba(0, 0, 0, 0.5); } }
 
@@ -92,13 +92,13 @@ h2 {
     border: none; }
   .fh5co-home-banner h2 {
     font-size: 52px;
-    color: #fff;
+    color: #e90e65;
     text-transform: uppercase;
     max-width: 730px;
     margin: 0 auto; }
   .fh5co-home-banner a {
     text-transform: uppercase;
-    color: #fff;
+    color: #e90e65;
     width: 198px;
     border-radius: 40px;
     margin-top: 50px;
