@@ -1,4 +1,5 @@
 const AppFooter = () => {
+  const getCurrentDate = new Date().getFullYear();
 return (
     <footer className="container-fluid p-0 pr-0">
     <div className="row mr-0 ml-0">
@@ -15,7 +16,7 @@ return (
       </div>
     </div>
     <div className="copy pt-4 pb-4">
-      <p><a href="#" target="_blank"> &copy; 2022 ROW</a>  &nbsp;  |  &nbsp; Email: <a href="mailto:someone@example.com" target="_blank">Send Email</a> &nbsp; | &nbsp;  All rights reserved</p>
+      <p><a href="#" target="_blank"> &copy; {getCurrentDate} ROW</a>  &nbsp;  |  &nbsp; Email: <a href="mailto:someone@example.com" target="_blank">Send Email</a> &nbsp; | &nbsp;  All rights reserved</p>
     </div>
   </footer>
 );
